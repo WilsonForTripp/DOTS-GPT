@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{14dcf1af-b3f4-983f-ae68-1d21ad6f528e}</ProjectGuid>
+    <ProjectGuid>{a0e441d4-e7d9-e9c7-3a95-d6858ad5fb4b}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -243,10 +243,28 @@
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Asio">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Asio.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Wasapi">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Wasapi.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Midi">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Midi.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Core">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.WinMM">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.WinMM.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -617,15 +635,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{9b156cf9-9e3a-b44d-e810-04045eb92758}</Project>
+      <Project>{df35320c-0886-4785-83f6-fb9e0fa21346}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{afb26d64-287f-10a0-78dc-b4ea19155c7f}</Project>
+      <Project>{5be11f01-7956-208c-e77f-c861a7fba521}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{905fb055-f0e3-e6e7-72c6-5c57a9499249}</Project>
+      <Project>{4e661e9a-8c99-6188-4eff-e61e69ebec55}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{429d11ca-55b5-ebfc-d45b-4e1f74c9dfe8}</ProjectGuid>
+    <ProjectGuid>{b8ca94b2-723f-c77f-a9e4-aad5075d678f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -312,31 +312,49 @@
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Asio">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Asio.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Wasapi">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Wasapi.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Midi">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Midi.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.Core">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.Core.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="NAudio.WinMM">
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Assets/GPT AI Integration/NAudio/libs/NAudio.WinMM.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>/Users/wilsonwestbrook/Documents/Repos/Dots/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     <HintPath>/Users/wilsonwestbrook/Documents/Repos/DOTS-GPT/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -719,19 +737,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{7038c34c-1b97-8838-d517-2c7467f690ee}</Project>
+      <Project>{e8582879-7e19-0ce0-77c8-c27735796234}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{94a61c7a-9b80-786e-1040-e913897ef43e}</Project>
+      <Project>{d32d277a-9075-307a-c021-d22a4f0390c5}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{74966d0f-3de7-c3e6-6fa1-b4f1947d391b}</Project>
+      <Project>{b6e90eb4-8efd-70bd-5a45-9f6957fb94b7}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{a59d6d33-b6fd-9f3c-7a7b-719d4b2826b0}</Project>
+      <Project>{0de68ece-9025-04f5-c2b3-c30bd202c363}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
